@@ -13,3 +13,6 @@ This version of the code is ideal for situations where the data retrieval proces
 ## Validation
 The "validation" directory in this code repository offers a solution to the challenge of identifying valid item IDs from a pool of 360,000 IDs in the game. 
 This directory contains code that automates the validation process, saving users time and effort when trying to identify valid IDs for their project. By utilizing the "validation" directory, users can quickly narrow down the valid IDs they need, improving the efficiency and accuracy of their code.
+
+## API
+The API folder in this project includes a version of a web scraper that makes calls to an open API located at "https://esi.evetech.net/ui/#/".
