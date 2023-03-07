@@ -2,6 +2,8 @@ import requests
 import pandas as pd
 import numpy as np
 
+# OpenAPI for EVE Online : https://esi.evetech.net/ui/#/
+
 def get_data(type_id):
     endpoint = f"https://evetycoon.com/api/v1/market/orders/{type_id}"
     response = requests.get(endpoint)
